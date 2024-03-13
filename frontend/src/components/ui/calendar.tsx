@@ -49,10 +49,10 @@ function Calendar({
         day_selected:
           "bg-[white] text-black focus:bg-white focus:text-black hover:!bg-[white] hover:!text-black",
         day_today: "text-accent-foreground",
-        day_outside: "text-muted-foreground opacity-50 aria-selected:opacity-100",
+        day_outside: "text-muted-foreground opacity-50 aria-selected:opacity-100 aria-selected:text-black",
         day_disabled: "text-muted-foreground opacity-50",
         day_range_middle:
-          "aria-selected:bg-[gray] aria-selected:text-accent-foreground",
+          "aria-selected:bg-[gray]/20  aria-selected:text-white",
         day_hidden: "invisible",
         ...classNames,
       }}

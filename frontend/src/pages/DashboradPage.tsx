@@ -1,3 +1,4 @@
+import Counter from '@/components/Common/Counter/counter';
 import Overview from '@/components/Dashboard/overview';
 import { RecentSales } from '@/components/Dashboard/recent-sales';
 import { CalendarDateRangePicker } from '@/components/date-range-picker';
@@ -5,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import React from 'react';
+
 
 const DashboradPage = () => {
     return (
@@ -48,7 +49,12 @@ const DashboradPage = () => {
                     </svg>
                   </CardHeader>
                   <CardContent>
-                    <div className="text-2xl font-bold text-white">$45,231.89</div>
+                    <div className="text-2xl font-bold text-white">
+                      <div className='flex items-center gap-2'>
+                        <Counter from={0} to={23189}/>
+                        <span>đồng</span>
+                      </div>
+                    </div>
                     <p className="text-xs text-muted-foreground text-zinc-600">
                       +20.1% from last month
                     </p>
@@ -75,7 +81,12 @@ const DashboradPage = () => {
                     </svg>
                   </CardHeader>
                   <CardContent>
-                    <div className="text-2xl font-bold text-white">+2350</div>
+                    <div className="text-2xl font-bold text-white">
+                      <div className='flex items-center gap-2'>
+                        <span>+</span>
+                        <Counter from={0} to={1000}/>
+                      </div>
+                    </div>
                     <p className="text-xs text-muted-foreground text-zinc-600">
                       +180.1% from last month
                     </p>
@@ -99,7 +110,12 @@ const DashboradPage = () => {
                     </svg>
                   </CardHeader>
                   <CardContent>
-                    <div className="text-2xl font-bold text-white">+12,234</div>
+                    <div className="text-2xl font-bold text-white">
+                    <div className='flex items-center gap-2'>
+                        <span>+</span>
+                        <Counter from={0} to={1324}/>
+                      </div>
+                    </div>
                     <p className="text-xs text-muted-foreground text-zinc-600">
                       +19% from last month
                     </p>
@@ -124,7 +140,12 @@ const DashboradPage = () => {
                     </svg>
                   </CardHeader>
                   <CardContent>
-                    <div className="text-2xl font-bold text-white">+573</div>
+                    <div className="text-2xl font-bold text-white">
+                      <div className='flex items-center gap-2'>
+                        <span>+</span>
+                        <Counter from={0} to={653}/>
+                      </div>
+                    </div>
                     <p className="text-xs text-muted-foreground text-zinc-600">
                       +201 since last hour
                     </p>

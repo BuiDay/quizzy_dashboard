@@ -10,7 +10,7 @@ export function RecentSales() {
         </Avatar>
         <div className="ml-4 space-y-1">
           <p className="text-sm font-medium leading-none text-white">Olivia Martin</p>
-          <p className="text-sm text-muted-foreground text-gray-500">
+          <p className="text-sm text-muted-foreground text-white">
             olivia.martin@email.com
           </p>
         </div>
@@ -23,7 +23,7 @@ export function RecentSales() {
         </Avatar>
         <div className="ml-4 space-y-1">
           <p className="text-sm font-medium leading-none text-white">Jackson Lee</p>
-          <p className="text-sm text-muted-foreground text-gray-500">jackson.lee@email.com</p>
+          <p className="text-sm text-muted-foreground text-white">jackson.lee@email.com</p>
         </div>
         <div className="ml-auto font-medium text-white">+$39.00</div>
       </div>
@@ -34,7 +34,7 @@ export function RecentSales() {
         </Avatar>
         <div className="ml-4 space-y-1">
           <p className="text-sm font-medium leading-none text-white">Isabella Nguyen</p>
-          <p className="text-sm text-muted-foreground text-gray-500">
+          <p className="text-sm text-muted-foreground text-white">
             isabella.nguyen@email.com
           </p>
         </div>
@@ -47,7 +47,7 @@ export function RecentSales() {
         </Avatar>
         <div className="ml-4 space-y-1">
           <p className="text-sm font-medium leading-none text-white">William Kim</p>
-          <p className="text-sm text-muted-foreground text-gray-500">will@email.com</p>
+          <p className="text-sm text-muted-foreground text-white">will@email.com</p>
         </div>
         <div className="ml-auto font-medium text-white">+$99.00</div>
       </div>
@@ -58,7 +58,7 @@ export function RecentSales() {
         </Avatar>
         <div className="ml-4 space-y-1">
           <p className="text-sm font-medium leading-none text-white">Sofia Davis</p>
-          <p className="text-sm text-muted-foreground text-gray-500">sofia.davis@email.com</p>
+          <p className="text-sm text-muted-foreground text-white">sofia.davis@email.com</p>
         </div>
         <div className="ml-auto font-medium text-white">+$39.00</div>
       </div>

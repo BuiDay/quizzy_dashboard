@@ -1,9 +1,9 @@
 
 import LogoQSG from '../../../assets/images/logo-qsg.png'
 import { Link } from 'react-router-dom'
-import { IoIosNotifications } from 'react-icons/io'
 import Avatar from '../../../assets/images/9.png'
 import { Dropdown } from './Dropdown'
+import NotificationsDropdown from './NotificationsDropdown'
 
 const Header = () => {
   return (
@@ -15,16 +15,7 @@ const Header = () => {
           </Link>
         </div>
         <div className='h-full flex items-center justify-center gap-10 cursor-pointer'>
-          <div className='flex items-center relative'>
-            <IoIosNotifications color='white' size={28} />
-            <div className='absolute top-[-5px] right-[-5px]'>
-              <div className='rounded-full bg-[#f44545] h-[20px] w-[20px]'>
-                <div className='h-full flex items-center justify-center'>
-                  <span className='text-white text-[14px]'>1</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <NotificationsDropdown />
           <Dropdown avatar={Avatar} displayName="Nhat Bui"/>
         </div>
       </div>
